@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# repository amalgamator
+repository_amalgamator.py
+repository_amalgamation.txt
