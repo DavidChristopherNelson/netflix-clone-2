@@ -99,7 +99,7 @@ const MovieCard = ({
             >
               <BsFillPlayFill />
             </div>
-            <FavoriteButton movieId={data?.id} />
+            {/* <FavoriteButton movieId={data?.id} /> */}
             <div
               onClick={() => openModal(data?.id)}
               className="
