@@ -17,10 +17,7 @@ const eslintConfig = [
       "@next/next/no-img-element": "off",
 
       // Disable errors for unused variables
-      "@typescript-eslint/no-unused-vars": "off",
-
-      // Allow use of 'any' type
-      "@typescript-eslint/no-explicit-any": "off",
+      "@typescript-eslint/no-unused-vars": "off"
     }
   }
 ];

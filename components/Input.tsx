@@ -2,7 +2,7 @@ import React from 'react';
 
 interface InputProps {
   id: string;
-  onChange: any;
+  onChange: unknown;
   value: string;
   label: string;
   type?: string;
