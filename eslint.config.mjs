@@ -18,9 +18,6 @@ const eslintConfig = [
 
       // Disable errors for unused variables
       "@typescript-eslint/no-unused-vars": "off",
-
-      // Allow use of 'any' type
-      "@typescript-eslint/no-explicit-any": "off",
     }
   }
 ];
