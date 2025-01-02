@@ -67,7 +67,7 @@ const handleOpenModal = useCallback(() => {
               py-1 md:py-2
               px-2 md:px-4
               w-auto
-              text-xs lg:text-lg
+              text-lg
               font-semibold
               flex
               flex-row
@@ -76,7 +76,7 @@ const handleOpenModal = useCallback(() => {
               transition
             "
           >
-            < AiOutlineInfoCircle className="mr-1"/>
+            < AiOutlineInfoCircle size={25} className="mr-1"/>
             More Info
           </button>
         </div>

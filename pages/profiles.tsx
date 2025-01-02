@@ -62,7 +62,7 @@ const Profiles = () => {
             </div>
           </div>
         </div>
-      </div>>
+      </div>
     </div>
   )
 };
