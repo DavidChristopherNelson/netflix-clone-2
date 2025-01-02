@@ -8,7 +8,7 @@ import useMovie from '@/hooks/useMovie';
 
 interface InfoModalProps {
   visible?: boolean;
-  onClose: unknown;
+  onClose: any;
 };
 
 const InfoModal: React.FC<InfoModalProps> = ({ visible, onClose }) => {
