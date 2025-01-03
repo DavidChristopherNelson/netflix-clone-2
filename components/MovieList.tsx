@@ -1,9 +1,19 @@
 import React from 'react';
-import { isEmpty } from 'lodash';
+import { Dictionary, isEmpty } from 'lodash';
 import MovieCard from './MovieCard';
 
+interface Movie {
+  description: string;
+  duration: string;
+  genre: string;
+  id: string;
+  thumbnailUrl: string;
+  title: string;
+  videoUrl: string;
+}
+
 interface MovieListProps {
-  data: Record<string, () => void>[];
+  data: Movie[];
   title: string;
 }
 

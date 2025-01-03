@@ -5,14 +5,21 @@ import { useRouter } from 'next/router';
 import useInfoModal from '@/hooks/useInfoModal';
 import { BiChevronDown } from 'react-icons/bi';
 
-
-interface MovieCardProps {
-  data: Record<string, () => void>;
+interface Movie {
+  description: string;
+  duration: string;
+  genre: string;
+  id: string;
+  thumbnailUrl: string;
+  title: string;
+  videoUrl: string;
 }
 
-const MovieCard = ({
-  data
-}) => {
+interface MovieCardProps {
+  data: Movie;
+}
+
+const MovieCard: React.FC<MovieCardProps> = ({ data }) => {
   const router = useRouter();
   const { openModal } = useInfoModal();
 
@@ -106,7 +113,7 @@ const MovieCard = ({
                 cursor-pointer 
                 ml-auto 
                 group/item 
-                w-6 
+                w-6
                 h-6 
                 lg:w-10 
                 border-white 
