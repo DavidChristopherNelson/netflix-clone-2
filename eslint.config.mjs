@@ -18,6 +18,9 @@ const eslintConfig = [
 
       // Disable errors for unused variables
       "@typescript-eslint/no-unused-vars": "off",
+
+      // Checks that all paths are case sensitive
+      "import/no-unresolved": "error"
     }
   }
 ];
